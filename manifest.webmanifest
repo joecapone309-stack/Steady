@@ -1,0 +1,19 @@
+{
+  "id": "./",
+  "name": "Steady",
+  "short_name": "Steady",
+  "description": "One better decision at a time. A personal emotional-regulation and recovery support tool.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f1ea",
+  "theme_color": "#426b63",
+  "orientation": "portrait-primary",
+  "icons": [
+    {"src":"steady-icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ],
+  "shortcuts": [
+    {"name":"Steady Now","short_name":"Steady Now","url":"./index.html#steady-now","icons":[{"src":"steady-icon.svg","sizes":"any"}]},
+    {"name":"Support","short_name":"Support","url":"./index.html#support","icons":[{"src":"steady-icon.svg","sizes":"any"}]}
+  ]
+}
